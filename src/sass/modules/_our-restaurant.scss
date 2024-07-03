@@ -1,0 +1,50 @@
+@import "../variables";
+.our-restaurant-section {
+  .our-restaurant-header {
+    .title {
+      font-family: myFont;
+      color: #5f5950;
+      font-weight: bold;
+      span {
+        color: $main-orange;
+      }
+    }
+    .paragraph {
+      width: 600px;
+      padding-top: 20px;
+      margin: auto;
+    }
+  }
+  .our-restaurant-body {
+    padding-top: 30px;
+    .our-restaurant-div {
+      text-align: start;
+      margin-left: 20px;
+      background-color: $white;
+      transition: 0.4s;
+      box-shadow: 0px 5px 10px 2px rgba(184, 184, 184, 1);
+      .our-restaurant {
+        transition: 0.3s;
+        padding-block: 60px;
+        padding-inline: 40px;
+        .number {
+          font-size: 30px;
+          font-weight: bold;
+          color: $main-orange;
+        }
+      }
+    }
+    .our-restaurant-div:hover {
+      box-shadow: 0px 5px 20px 2px rgba(184, 184, 184, 1);
+      background-color: $main-orange;
+    }
+    .our-restaurant-div:hover .our-restaurant {
+      transform: translateY(-15px);
+      color: $white;
+      
+    }
+    .our-restaurant-div:hover .our-restaurant .number {
+      color: $white;
+    }
+  }
+}
