@@ -11940,6 +11940,44 @@ textarea.form-control-lg {
   background-size: cover;
 }
 
+.about-section {
+  background-color: #fffaf3;
+}
+.about-section .video video {
+  width: 600px;
+  background-size: cover;
+}
+.about-section .about-right {
+  padding-inline: 80px;
+}
+.about-section .about-right .title {
+  font-family: myFont;
+  letter-spacing: -3px;
+  font-weight: 500;
+  color: #5f5950;
+  padding-bottom: 20px;
+}
+.about-section .about-right .first-paragraph {
+  color: #848484;
+  padding-bottom: 20px;
+}
+.about-section .about-right .second-paragraph {
+  color: #848484;
+  padding-bottom: 20px;
+}
+.about-section .about-right .icon-paragraph p {
+  font-size: 17px;
+  font-weight: 500;
+}
+.about-section .about-right .icon-paragraph span {
+  color: #ffb03b;
+  font-size: 20px;
+}
+.about-section .about-right .third-paragraph {
+  color: #848484;
+  padding-bottom: 20px;
+}
+
 @font-face {
   font-family: myFont;
   src: url(../../public/font/Caveat/static/Caveat-Regular.ttf);

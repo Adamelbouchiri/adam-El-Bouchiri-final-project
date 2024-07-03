@@ -1,0 +1,42 @@
+@import "../variables";
+.about-section {
+  background-color: #fffaf3;
+  .video {
+    video {
+      width: 600px;
+      background-size: cover;
+    }
+  }
+  .about-right {
+    padding-inline: 80px;
+    .title {
+      font-family: myFont;
+      letter-spacing: -3px;
+      font-weight: 500;
+      color: #5f5950;
+      padding-bottom: 20px;
+    }
+    .first-paragraph {
+      color: #848484;
+      padding-bottom: 20px;
+    }
+    .second-paragraph {
+      color: #848484;
+      padding-bottom: 20px;
+    }
+    .icon-paragraph {
+      p {
+        font-size: 17px;
+        font-weight: 500;
+      }
+      span {
+        color: $main-orange;
+        font-size: 20px;
+      }
+    }
+    .third-paragraph {
+      color: #848484;
+      padding-bottom: 20px;
+    }
+  }
+}
