@@ -1,0 +1,53 @@
+@import "../variables";
+
+.hero-section {
+  text-align: center;
+  .hero {
+    background-image: url(../../../public/images/slide/slide-1.jpg);
+    background-size: cover;
+    .title {
+      font-family: myFont;
+      font-weight: bold;
+      font-size: 60px;
+      padding-top: 80px;
+      padding-bottom: 30px;
+      color: #fff;
+      span {
+        color: $hover-orange;
+      }
+    }
+    .paragraph {
+      width: 600px;
+      color: $white;
+      margin: auto;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.7;
+      padding-bottom: 50px;
+    }
+    .buttons {
+      padding-bottom: 200px;
+      gap: 30px;
+      a {
+        text-decoration: none;
+        padding: 8px 20px;
+        border: 2px solid $main-orange;
+        border-radius: 20px;
+        color: $white;
+        transition: 0.5s;
+      }
+      a:hover {
+        background-color: $main-orange;
+        color: $white;
+      }
+    }
+  }
+  .hero.second {
+    background-image: url(../../../public/images/slide/slide-2.jpg);
+    background-size: cover;
+  }
+  .hero.third {
+    background-image: url(../../../public/images/slide/slide-3.jpg);
+    background-size: cover;
+  }
+}

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 * {
   margin: 0;
   padding: 0;
@@ -11885,6 +11886,58 @@ textarea.form-control-lg {
 }
 .nav-bar .nav-links .links .link :hover {
   color: #ffa012;
+}
+
+.hero-section {
+  text-align: center;
+}
+.hero-section .hero {
+  background-image: url(../../../public/images/slide/slide-1.jpg);
+  background-size: cover;
+}
+.hero-section .hero .title {
+  font-family: myFont;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+.hero-section .hero .title span {
+  color: #ffa012;
+}
+.hero-section .hero .paragraph {
+  width: 600px;
+  color: #fff;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7;
+  padding-bottom: 50px;
+}
+.hero-section .hero .buttons {
+  padding-bottom: 200px;
+  gap: 30px;
+}
+.hero-section .hero .buttons a {
+  text-decoration: none;
+  padding: 8px 20px;
+  border: 2px solid #ffb03b;
+  border-radius: 20px;
+  color: #fff;
+  transition: 0.5s;
+}
+.hero-section .hero .buttons a:hover {
+  background-color: #ffb03b;
+  color: #fff;
+}
+.hero-section .hero.second {
+  background-image: url(../../../public/images/slide/slide-2.jpg);
+  background-size: cover;
+}
+.hero-section .hero.third {
+  background-image: url(../../../public/images/slide/slide-3.jpg);
+  background-size: cover;
 }
 
 @font-face {

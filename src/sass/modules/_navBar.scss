@@ -1,5 +1,6 @@
+@import "../variables";
 .nav-bar {
-  background-color: #3c3a39;
+  background-color: $background-black;
   .title {
     font-family: myFont;
     font-weight: 500;
@@ -20,17 +21,17 @@
         }
         .last {
           padding: 8px 25px;
-          background-color: #ffb03b;
+          background-color: $main-orange;
           border-radius: 25px;
           transition: 0.3s;
         }
         .last:hover {
           color: #fff;
-          background-color: #ffa012;
+          background-color: $hover-orange;
         }
       }
       .link :hover {
-        color: #ffa012;
+        color: $hover-orange;
       }
     }
   }
