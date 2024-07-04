@@ -1,0 +1,68 @@
+@import "../variables";
+
+.events-section {
+  position: relative;
+  background-image: url(../../../public/images/events-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+  }
+  .container {
+    .events-title {
+      color: $white;
+      position: relative;
+      font-family: myFont;
+      font-weight: bold;
+      padding: 40px 0;
+      span {
+        color: $main-orange;
+      }
+    }
+    .events-body {
+      position: relative;
+      z-index: 2;
+      gap: 30px;
+      img {
+        width: 700px;
+      }
+      .events-body-info {
+        h3 {
+          color: $main-orange;
+          font-family: myFont;
+          font-weight: bold;
+          font-size: 30px;
+        }
+        .span {
+          position: relative;
+          font-size: 30px;
+          color: $white;
+          font-weight: bold;
+          &::before {
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            height: 2px;
+            width: 100%;
+            background-color: $main-orange;
+          }
+        }
+        p {
+          color: $white;
+          padding-top: 20px;
+          font-size: 20px;
+          span {
+            color: $main-orange;
+          }
+        }
+      }
+    }
+  }
+}
