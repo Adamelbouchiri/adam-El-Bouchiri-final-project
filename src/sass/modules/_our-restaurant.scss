@@ -1,4 +1,5 @@
 @import "../variables";
+
 .our-restaurant-section {
   .our-restaurant-header {
     .title {
@@ -41,7 +42,6 @@
     .our-restaurant-div:hover .our-restaurant {
       transform: translateY(-15px);
       color: $white;
-      
     }
     .our-restaurant-div:hover .our-restaurant .number {
       color: $white;

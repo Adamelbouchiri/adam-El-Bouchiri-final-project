@@ -11851,7 +11851,11 @@ textarea.form-control-lg {
   }
 }
 .nav-bar {
-  background-color: #3c3a39;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 .nav-bar .title {
   font-family: myFont;
@@ -12020,6 +12024,34 @@ textarea.form-control-lg {
   color: #fff;
 }
 .our-restaurant-section .our-restaurant-body .our-restaurant-div:hover .our-restaurant .number {
+  color: #fff;
+}
+
+.menu-section {
+  text-align: center;
+  padding-top: 80px;
+  padding-inline: 50px;
+}
+.menu-section .title {
+  font-family: myFont;
+  font-weight: 600;
+  padding-bottom: 50px;
+  color: #5f5950;
+}
+.menu-section .title span {
+  color: #ffb03b;
+}
+.menu-section .menu-collaps p .button {
+  padding: 8px 15px;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #5f5950;
+  border: 2px solid #ffb03b;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.menu-section .menu-collaps p .button:hover {
+  background-color: #ffb03b;
   color: #fff;
 }
 

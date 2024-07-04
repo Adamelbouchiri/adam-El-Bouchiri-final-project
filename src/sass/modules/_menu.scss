@@ -1,0 +1,31 @@
+@import "../variables";
+
+.menu-section {
+  text-align: center;
+  padding-top: 80px;
+  padding-inline: 50px;
+  .title {
+    font-family: myFont;
+    font-weight: 600;
+    padding-bottom: 50px;
+    color: #5f5950;
+    span {
+      color: $main-orange;
+    }
+  }
+  .menu-collaps {
+    p .button {
+      padding: 8px 15px;
+      background-color: $white;
+      border-radius: 20px;
+      color: #5f5950;
+      border: 2px solid $main-orange;
+      text-decoration: none;
+      transition: .3s;
+    }
+    p .button:hover {
+      background-color: $main-orange;
+      color: $white;
+    }
+  }
+}

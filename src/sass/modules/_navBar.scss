@@ -1,6 +1,11 @@
 @import "../variables";
+
 .nav-bar {
-  background-color: $background-black;
+  background-color: rgba($color: #000000, $alpha: .9);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
   .title {
     font-family: myFont;
     font-weight: 500;
