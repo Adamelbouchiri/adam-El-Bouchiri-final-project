@@ -1,0 +1,43 @@
+@import "../variables";
+.specials-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-inline: 20px;
+  .specials-header {
+    .spacials-title {
+      color: #5f5950;
+      font-family: myFont;
+      font-weight: bold;
+      span {
+        color: $main-orange;
+      }
+    }
+    .specials-paragraph {
+      width: 500px;
+      margin: auto;
+    }
+  }
+  .specials-body {
+    .specials-content {
+      display: flex;
+      div {
+        width: 600px;
+      }
+      img {
+        width: 250px;
+        height: 250px;
+        margin-left: 50px;
+      }
+    }
+    p .button {
+      background-color: transparent;
+      border: none;
+      padding: 8px 15px;
+      font-weight: bold;
+      transition: .3s;
+    }
+    p .button:hover {
+      color: $main-orange;
+    }
+  }
+}

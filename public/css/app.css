@@ -12055,6 +12055,45 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.specials-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-inline: 20px;
+}
+.specials-section .specials-header .spacials-title {
+  color: #5f5950;
+  font-family: myFont;
+  font-weight: bold;
+}
+.specials-section .specials-header .spacials-title span {
+  color: #ffb03b;
+}
+.specials-section .specials-header .specials-paragraph {
+  width: 500px;
+  margin: auto;
+}
+.specials-section .specials-body .specials-content {
+  display: flex;
+}
+.specials-section .specials-body .specials-content div {
+  width: 600px;
+}
+.specials-section .specials-body .specials-content img {
+  width: 250px;
+  height: 250px;
+  margin-left: 50px;
+}
+.specials-section .specials-body p .button {
+  background-color: transparent;
+  border: none;
+  padding: 8px 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.specials-section .specials-body p .button:hover {
+  color: #ffb03b;
+}
+
 @font-face {
   font-family: myFont;
   src: url(../../public/font/Caveat/static/Caveat-Regular.ttf);
