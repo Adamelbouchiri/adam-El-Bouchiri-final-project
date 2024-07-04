@@ -11851,7 +11851,11 @@ textarea.form-control-lg {
   }
 }
 .nav-bar {
-  background-color: #3c3a39;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 .nav-bar .title {
   font-family: myFont;
