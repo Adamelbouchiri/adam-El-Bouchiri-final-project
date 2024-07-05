@@ -72,6 +72,16 @@
         border: 1px solid #ccc;
         height: 150px;
       }
+      button {
+        display: block;
+        background-color: $main-orange;
+        padding: 10px 25px;
+        color: $white;
+        border: none;
+        border-radius: 20px;
+        margin-top: 20px;
+        margin-inline: auto;
+      }
     }
   }
 }
