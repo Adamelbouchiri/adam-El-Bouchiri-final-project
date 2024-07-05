@@ -1,0 +1,21 @@
+@import "../variables";
+
+.contact-us-section {
+  .contact-us-header {
+    .contact-us-title {
+      color: $main-orange;
+      font-family: myFont;
+      font-weight: bold;
+      span {
+        color: #5f5950;
+      }
+    }
+    .contact-us-paragraph {
+      width: 600px;
+      margin: auto;
+    }
+  }
+  .map {
+    height: 350px;
+  }
+}

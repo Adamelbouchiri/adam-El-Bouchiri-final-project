@@ -12338,6 +12338,22 @@ textarea.form-control-lg {
   font-size: 20px;
 }
 
+.contact-us-section .contact-us-header .contact-us-title {
+  color: #ffb03b;
+  font-family: myFont;
+  font-weight: bold;
+}
+.contact-us-section .contact-us-header .contact-us-title span {
+  color: #5f5950;
+}
+.contact-us-section .contact-us-header .contact-us-paragraph {
+  width: 600px;
+  margin: auto;
+}
+.contact-us-section .map {
+  height: 350px;
+}
+
 @font-face {
   font-family: myFont;
   src: url(../../public/font/Caveat/static/Caveat-Regular.ttf);
