@@ -32,3 +32,13 @@
     }
   }
 }
+
+@media (max-width: 428px) {
+  .gallery-section {
+    .gallery-header {
+      .gallery-paragraph {
+        width: 350px;
+      }
+    }
+  }
+}

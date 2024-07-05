@@ -44,6 +44,11 @@
 
 @media (max-width: 428px) {
   .specials-section {
+    .specials-header {
+      .specials-paragraph {
+        width: 350px;
+      }
+    }
     .specials-body {
       flex-direction: column;
     }

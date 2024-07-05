@@ -60,3 +60,18 @@
     }
   }
 }
+
+@media (max-width: 428px) {
+  .chefs-section {
+    .chefs-container {
+      .chefs-header {
+        .chefs-paragraph {
+          width: 350px;
+        }
+      }
+      .chefs-body {
+        padding: 10px !important;
+      }
+    }
+  }
+}

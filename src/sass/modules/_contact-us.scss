@@ -85,3 +85,33 @@
     }
   }
 }
+
+@media (max-width: 428px) {
+  .contact-us-section {
+    .contact-us-header {
+      .contact-us-paragraph {
+        width: 350px;
+      }
+    }
+    .contact-info-form {
+      margin: 10px !important;
+      .contact-info {
+        flex-direction: column;
+        gap: 10px !important;
+        .info {
+          align-items: center;
+          padding: 15px !important;
+        }
+      }
+      form {
+        padding: 20px ;
+        .inputs {
+          flex-direction: column;
+          .input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

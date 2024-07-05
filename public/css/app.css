@@ -12086,6 +12086,7 @@ textarea.form-control-lg {
   }
   .our-restaurant-section .our-restaurant-body .our-restaurant-div {
     margin-bottom: 20px;
+    margin-left: 0;
   }
 }
 .menu-section {
@@ -12166,6 +12167,9 @@ textarea.form-control-lg {
 }
 
 @media (max-width: 428px) {
+  .specials-section .specials-header .specials-paragraph {
+    width: 350px;
+  }
   .specials-section .specials-body {
     flex-direction: column;
   }
@@ -12243,6 +12247,17 @@ textarea.form-control-lg {
   color: #ffb03b;
 }
 
+@media (max-width: 428px) {
+  .events-section {
+    padding: 10px !important;
+  }
+  .events-section .container .events-body {
+    flex-direction: column;
+  }
+  .events-section .container .events-body img {
+    width: 400px;
+  }
+}
 .table-section {
   padding-top: 80px;
   padding-bottom: 40px;
@@ -12302,6 +12317,23 @@ textarea.form-control-lg {
   margin-top: 20px;
 }
 
+@media (max-width: 428px) {
+  .table-section {
+    padding: 20px !important;
+  }
+  .table-section .table-header .table-paragraph {
+    width: 350px;
+  }
+  .table-section form {
+    margin: 0;
+  }
+  .table-section form .inputs {
+    flex-direction: column;
+  }
+  .table-section form .inputs input {
+    width: 100%;
+  }
+}
 .gallery-section .gallery-header .gallery-title {
   color: #5f5950;
   font-weight: bold;
@@ -12329,6 +12361,11 @@ textarea.form-control-lg {
   transition: 0.4s;
 }
 
+@media (max-width: 428px) {
+  .gallery-section .gallery-header .gallery-paragraph {
+    width: 350px;
+  }
+}
 .chefs-section {
   position: relative;
   background-image: url(../../../public/images/chefs-bg.jpg);
@@ -12382,6 +12419,14 @@ textarea.form-control-lg {
   color: #ffb03b;
 }
 
+@media (max-width: 428px) {
+  .chefs-section .chefs-container .chefs-header .chefs-paragraph {
+    width: 350px;
+  }
+  .chefs-section .chefs-container .chefs-body {
+    padding: 10px !important;
+  }
+}
 .testimonials-section {
   position: relative;
   background-image: url(../../../public/images/testimonials-bg.jpg);
@@ -12502,6 +12547,31 @@ textarea.form-control-lg {
   margin-inline: auto;
 }
 
+@media (max-width: 428px) {
+  .contact-us-section .contact-us-header .contact-us-paragraph {
+    width: 350px;
+  }
+  .contact-us-section .contact-info-form {
+    margin: 10px !important;
+  }
+  .contact-us-section .contact-info-form .contact-info {
+    flex-direction: column;
+    gap: 10px !important;
+  }
+  .contact-us-section .contact-info-form .contact-info .info {
+    align-items: center;
+    padding: 15px !important;
+  }
+  .contact-us-section .contact-info-form form {
+    padding: 20px;
+  }
+  .contact-us-section .contact-info-form form .inputs {
+    flex-direction: column;
+  }
+  .contact-us-section .contact-info-form form .inputs .input {
+    width: 100%;
+  }
+}
 .footer {
   background-color: #35322d;
   color: #fff;

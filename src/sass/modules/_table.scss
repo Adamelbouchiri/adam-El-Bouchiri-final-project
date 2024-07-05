@@ -58,3 +58,23 @@
     }
   }
 }
+
+@media (max-width: 428px) {
+  .table-section {
+    padding: 20px !important;
+    .table-header {
+      .table-paragraph {
+        width: 350px;
+      }
+    }
+    form {
+      margin: 0;
+      .inputs {
+        flex-direction: column;
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

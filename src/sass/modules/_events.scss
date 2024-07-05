@@ -66,3 +66,17 @@
     }
   }
 }
+
+@media (max-width: 428px) {
+  .events-section {
+    padding: 10px !important;
+    .container {
+      .events-body {
+        flex-direction: column;
+        img {
+          width: 400px;
+        }
+      }
+    }
+  }
+}
