@@ -18,4 +18,60 @@
   .map {
     height: 350px;
   }
+  .contact-info-form {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 40px;
+    .contact-info {
+      .info {
+        align-items: flex-start;
+        width: 350px;
+        span {
+          font-size: 20px;
+          display: block;
+          margin-right: 20px;
+          padding: 10px;
+          border-radius: 50%;
+          background-color: #ffce86;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          color: $white;
+          transition: 0.3s;
+        }
+        div {
+          p {
+            padding-inline: 10px;
+            color: #7a7368;
+          }
+        }
+        &:hover span {
+          background-color: $main-orange;
+        }
+      }
+    }
+    form {
+      padding: 30px;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      .inputs {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 20px;
+        .input {
+          width: 50%;
+          outline: none;
+          border: 1px solid #ccc;
+        }
+      }
+      input {
+        outline: none;
+        border: 1px solid #ccc;
+      }
+      textarea {
+        outline: none;
+        border: 1px solid #ccc;
+        height: 150px;
+      }
+    }
+  }
 }
