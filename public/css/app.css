@@ -12216,6 +12216,31 @@ textarea.form-control-lg {
   margin-top: 20px;
 }
 
+.gallery-section .gallery-header .gallery-title {
+  color: #5f5950;
+  font-weight: bold;
+  font-family: myFont;
+  padding-bottom: 20px;
+}
+.gallery-section .gallery-header .gallery-title span {
+  color: #ffb03b;
+}
+.gallery-section .gallery-header .gallery-title .gallery-paragraph {
+  width: 500px;
+}
+.gallery-section .gallery-holder .image-box {
+  width: 360px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.gallery-section .gallery-holder .image-box:hover img {
+  transform: scale(1.1);
+}
+.gallery-section .gallery-holder .image-box img {
+  width: 100%;
+  transition: 0.4s;
+}
+
 @font-face {
   font-family: myFont;
   src: url(../../public/font/Caveat/static/Caveat-Regular.ttf);
