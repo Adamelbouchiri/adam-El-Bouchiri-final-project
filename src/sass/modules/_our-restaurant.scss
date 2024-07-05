@@ -48,3 +48,19 @@
     }
   }
 }
+
+@media (max-width: 428px) {
+  .our-restaurant-section {
+    .our-restaurant-header {
+      .paragraph {
+        width: 350px;
+      }
+    }
+    .our-restaurant-body {
+      flex-direction: column;
+      .our-restaurant-div {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

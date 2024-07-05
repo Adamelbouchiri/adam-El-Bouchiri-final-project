@@ -11891,7 +11891,42 @@ textarea.form-control-lg {
 .nav-bar .nav-links .links .link :hover {
   color: #ffa012;
 }
+.nav-bar .rs-last {
+  display: none;
+  padding: 8px 25px;
+  background-color: #ffb03b;
+  border-radius: 25px;
+  transition: 0.3s;
+  text-decoration: none;
+  color: #fff;
+}
+.nav-bar .icon {
+  display: none;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.nav-bar input {
+  opacity: 0;
+}
 
+@media (max-width: 428px) {
+  .nav-bar .title {
+    padding-left: 20px;
+  }
+  .nav-bar .nav-links .links {
+    display: none;
+  }
+  .nav-bar .rs-last {
+    display: block;
+  }
+  .nav-bar .icon {
+    display: block;
+  }
+  .nav-bar input:checked .nav-links .links {
+    display: block;
+  }
+}
 .hero-section {
   text-align: center;
 }
@@ -11982,6 +12017,21 @@ textarea.form-control-lg {
   padding-bottom: 20px;
 }
 
+@media (max-width: 428px) {
+  .about-section {
+    flex-direction: column;
+  }
+  .about-section .video {
+    margin-bottom: 20px;
+  }
+  .about-section .video video {
+    width: 100%;
+    background-size: cover;
+  }
+  .about-section .about-right {
+    padding-inline: 10px;
+  }
+}
 .our-restaurant-section .our-restaurant-header .title {
   font-family: myFont;
   color: #5f5950;
@@ -12027,6 +12077,17 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+@media (max-width: 428px) {
+  .our-restaurant-section .our-restaurant-header .paragraph {
+    width: 350px;
+  }
+  .our-restaurant-section .our-restaurant-body {
+    flex-direction: column;
+  }
+  .our-restaurant-section .our-restaurant-body .our-restaurant-div {
+    margin-bottom: 20px;
+  }
+}
 .menu-section {
   text-align: center;
   padding-top: 80px;
@@ -12055,6 +12116,16 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+@media (max-width: 428px) {
+  .menu-section {
+    padding-top: 40px;
+    padding-inline: 20px;
+  }
+  .menu-section .menu-holder {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .specials-section {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -12094,6 +12165,21 @@ textarea.form-control-lg {
   color: #ffb03b;
 }
 
+@media (max-width: 428px) {
+  .specials-section .specials-body {
+    flex-direction: column;
+  }
+  .specials-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .specials-content .width {
+    width: 100% !important;
+  }
+  .specials-content img {
+    margin-left: 0;
+  }
+}
 .events-section {
   position: relative;
   background-image: url(../../../public/images/events-bg.jpg);

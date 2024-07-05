@@ -1,7 +1,7 @@
 @import "../variables";
 
 .nav-bar {
-  background-color: rgba($color: #000000, $alpha: .9);
+  background-color: rgba($color: #000000, $alpha: 0.9);
   position: sticky;
   top: 0;
   left: 0;
@@ -37,6 +37,51 @@
       }
       .link :hover {
         color: $hover-orange;
+      }
+    }
+  }
+  .rs-last {
+    display: none;
+    padding: 8px 25px;
+    background-color: $main-orange;
+    border-radius: 25px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: $white;
+  }
+  .icon {
+    display: none;
+    color: $white;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  input {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 428px) {
+  .nav-bar {
+    .title {
+      padding-left: 20px;
+    }
+    .nav-links {
+      .links {
+        display: none;
+      }
+    }
+    .rs-last {
+      display: block;
+    }
+    .icon {
+      display: block;
+    }
+  }
+
+  .nav-bar {
+    input:checked {
+      .nav-links .links {
+        display: block;
       }
     }
   }

@@ -40,3 +40,19 @@
     }
   }
 }
+
+@media (max-width: 428px) {
+  .about-section {
+    flex-direction: column;
+    .video {
+      margin-bottom: 20px;
+      video {
+        width: 100%;
+        background-size: cover;
+      }
+    }
+    .about-right {
+      padding-inline: 10px;
+    }
+  }
+}

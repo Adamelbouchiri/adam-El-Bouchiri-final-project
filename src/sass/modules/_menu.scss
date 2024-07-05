@@ -29,3 +29,14 @@
     }
   }
 }
+
+@media (max-width: 428px) {
+  .menu-section {
+    padding-top: 40px;
+    padding-inline: 20px;
+    .menu-holder {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
