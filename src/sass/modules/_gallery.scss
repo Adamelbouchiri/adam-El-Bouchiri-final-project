@@ -10,9 +10,11 @@
       span {
         color: $main-orange;
       }
-      .gallery-paragraph {
-        width: 500px;
-      }
+    }
+    .gallery-paragraph {
+      width: 500px;
+      margin: auto;
+      padding-bottom: 30px;
     }
   }
   .gallery-holder {
